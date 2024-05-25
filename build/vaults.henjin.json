@@ -1,30 +1,32 @@
 {
-  "name": "Henjin Vaults",
-  "timestamp": "2024-05-24T19:29:04.189Z",
-  "version": {
-    "major": 0,
-    "minor": 1,
-    "patch": 0
-  },
-  "tags": {},
-  "logoURI": "https://henjin.xyz/resources/images/logo.svg",
-  "keywords": ["henjin", "vault"],
-  "vaults": [
-    {
-      "type": "Ichi",
-      "name": "WBTC-USDC",
-      "chainId": 167009,
-      "vaultAddress": "0xcb7104ccf078ae1caf712d8a79068095d428c957",
-      "depositToken": "0x367F1F510036fD3feccBfa5eBD162e9dD244E5E8",
-      "poolAddress": "0xfa44d90f750733908fba051b23e244cc2a5d84f4"
+    "name": "Henjin Vaults",
+    "timestamp": "2024-05-24T19:29:04.189Z",
+    "version": {
+      "major": 0,
+      "minor": 1,
+      "patch": 0
     },
-    {
-        "type": "Ichi",
-        "name": "USDC-WBTC",
-        "chainId": 167009,
-        "vaultAddress": "0xcb7104ccf078ae1caf712d8a79068095d428c957",
-        "depositToken": "0x5afCBf3f53eaa3A31C972A058A87e4182b746f44",
-        "poolAddress": "0xfa44d90f750733908fba051b23e244cc2a5d84f4"
+    "tags": {},
+    "logoURI": "https://henjin.xyz/resources/images/logo.svg",
+    "keywords": ["henjin", "vault"],
+    "vaults": {
+      "167009": [
+        {
+          "type": "Ichi",
+          "name": "WBTC-USDC",
+          "chainId": 167009,
+          "vaultAddress": "0xcb7104ccf078ae1caf712d8a79068095d428c957",
+          "depositToken": "0x367F1F510036fD3feccBfa5eBD162e9dD244E5E8",
+          "poolAddress": "0xfa44d90f750733908fba051b23e244cc2a5d84f4"
+        },
+        {
+            "type": "Ichi",
+            "name": "USDC-WBTC",
+            "chainId": 167009,
+            "vaultAddress": "0xcb7104ccf078ae1caf712d8a79068095d428c957",
+            "depositToken": "0x5afCBf3f53eaa3A31C972A058A87e4182b746f44",
+            "poolAddress": "0xfa44d90f750733908fba051b23e244cc2a5d84f4"
+        }
+      ]
     }
-  ]
 }
