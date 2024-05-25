@@ -5,14 +5,16 @@
         {
             "name": "WBTC-USDC",
             "chainId": 167009,
-            "address": "0xcb7104ccf078ae1caf712d8a79068095d428c957",
-            "depositToken": "0x367F1F510036fD3feccBfa5eBD162e9dD244E5E8"
+            "vaultAddress": "0xcb7104ccf078ae1caf712d8a79068095d428c957",
+            "depositToken": "0x367F1F510036fD3feccBfa5eBD162e9dD244E5E8",
+            "poolAddress": "0xfa44d90f750733908fba051b23e244cc2a5d84f4"
         },
         {
             "name": "USDC-WBTC",
             "chainId": 167009,
             "address": "0xcb7104ccf078ae1caf712d8a79068095d428c957",
-            "depositToken": "0x367F1F510036fD3feccBfa5eBD162e9dD244E5E8"
+            "depositToken": "0x367F1F510036fD3feccBfa5eBD162e9dD244E5E8",
+            "poolAddress": "0xfa44d90f750733908fba051b23e244cc2a5d84f4"
         }
     ]
 }
