@@ -23,7 +23,7 @@
             "type": "Ichi",
             "name": "USDC-WBTC",
             "chainId": 167009,
-            "vaultAddress": "0xcb7104ccf078ae1caf712d8a79068095d428c957",
+            "vaultAddress": "0x69002e5c648f736e49ba81b280cb0cc0db097577",
             "depositToken": "0x5afCBf3f53eaa3A31C972A058A87e4182b746f44",
             "poolAddress": "0xfa44d90f750733908fba051b23e244cc2a5d84f4"
         },
