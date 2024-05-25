@@ -26,6 +26,22 @@
             "vaultAddress": "0xcb7104ccf078ae1caf712d8a79068095d428c957",
             "depositToken": "0x5afCBf3f53eaa3A31C972A058A87e4182b746f44",
             "poolAddress": "0xfa44d90f750733908fba051b23e244cc2a5d84f4"
+        },
+        {
+          "type": "Ichi",
+          "name": "WETH-USDC",
+          "chainId": 167009,
+          "vaultAddress": "0xFAd1b7bE7780C5Ee6C59AB805F298ad0Ef39aFf9",
+          "depositToken": "0x0000000000000000000000000000000000000000",
+          "poolAddress": "0x70699a7f1a450f84acbb29ef4d455a0774fe4bfd"
+        },
+        {
+          "type": "Ichi",
+          "name": "USDC-WETH",
+          "chainId": 167009,
+          "vaultAddress": "0x7223F4d59A927b04E92962B1cEed3e79A7e86D8e",
+          "depositToken": "0x5afCBf3f53eaa3A31C972A058A87e4182b746f44",
+          "poolAddress": "0x70699a7f1a450f84acbb29ef4d455a0774fe4bfd"
         }
       ]
     }
