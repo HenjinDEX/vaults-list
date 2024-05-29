@@ -12,7 +12,7 @@
     "vaults": {
       "167009": [
         {
-          "type": "Ichi",
+          "type": "ICHI",
           "name": "WBTC-USDC",
           "chainId": 167009,
           "vaultAddress": "0xcb7104ccf078ae1caf712d8a79068095d428c957",
@@ -20,7 +20,7 @@
           "poolAddress": "0xfa44d90f750733908fba051b23e244cc2a5d84f4"
         },
         {
-            "type": "Ichi",
+            "type": "ICHI",
             "name": "USDC-WBTC",
             "chainId": 167009,
             "vaultAddress": "0x69002e5c648f736e49ba81b280cb0cc0db097577",
@@ -28,7 +28,7 @@
             "poolAddress": "0xfa44d90f750733908fba051b23e244cc2a5d84f4"
         },
         {
-          "type": "Ichi",
+          "type": "ICHI",
           "name": "WETH-USDC",
           "chainId": 167009,
           "vaultAddress": "0xFAd1b7bE7780C5Ee6C59AB805F298ad0Ef39aFf9",
@@ -36,7 +36,7 @@
           "poolAddress": "0x70699a7f1a450f84acbb29ef4d455a0774fe4bfd"
         },
         {
-          "type": "Ichi",
+          "type": "ICHI",
           "name": "USDC-WETH",
           "chainId": 167009,
           "vaultAddress": "0x7223F4d59A927b04E92962B1cEed3e79A7e86D8e",
@@ -46,7 +46,7 @@
       ],
       "167000": [
         {
-          "type": "Ichi",
+          "type": "ICHI",
           "name": "WETH-USDC",
           "chainId": 167009,
           "vaultAddress": "0x2dFDAfd06f7fD5e2436c57Be0d89835eCFA3a136",
@@ -54,7 +54,7 @@
           "poolAddress": "0x044e9d04e95da164e7c7a9e2ec734610c09aae13"
         },
         {
-            "type": "Ichi",
+            "type": "ICHI",
             "name": "USDC-WETH",
             "chainId": 167009,
             "vaultAddress": "0x0Ef07016Ec9484e60141a80b239cbbf2983e7a6B",
