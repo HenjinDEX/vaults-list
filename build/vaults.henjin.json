@@ -51,7 +51,8 @@
           "chainId": 167000,
           "vaultAddress": "0xF7b7E687DCb7C83e79647641b01F895DBe3Bf7d3",
           "depositToken": "0x0000000000000000000000000000000000000000",
-          "poolAddress": "0x044e9d04e95da164e7c7a9e2ec734610c09aae13"
+          "poolAddress": "0x044e9d04e95da164e7c7a9e2ec734610c09aae13",
+          "isToken0": false
         }
       ]
     }
