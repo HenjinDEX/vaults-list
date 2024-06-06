@@ -27,6 +27,24 @@
             "depositToken": "0xA9d23408b9bA935c230493c40C73824Df71A0975",
             "poolAddress": "0x2741b57acf34dd783d3789012ba8389595275cac",
             "isToken0": false
+        },
+        {
+            "type": "ICHI",
+            "name": "ETH-TAIKO",
+            "chainId": 167000,
+            "vaultAddress": "0x9Fe0fd905E418F644a749E6CC3eEbe16A318309A",
+            "depositToken": "0x0000000000000000000000000000000000000000",
+            "poolAddress": "0x1011734849b6ea161f2c9ad1bb4aa765c8e09bd3",
+            "isToken0": true
+        },
+        {
+            "type": "ICHI",
+            "name": "USDC-TAIKO",
+            "chainId": 167000,
+            "vaultAddress": "0x451576d0143a9BD4CD5cdf8095c72d8Be0A5c747",
+            "depositToken": "0x07d83526730c7438048D55A4fc0b850e2aaB6f0b",
+            "poolAddress": "0x2741b57acf34dd783d3789012ba8389595275cac",
+            "isToken0": true
         }
     ]
 }
