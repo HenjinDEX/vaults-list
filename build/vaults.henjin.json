@@ -1,95 +1,148 @@
 {
-    "name": "Henjin Vaults",
-    "timestamp": "2024-05-24T19:29:04.189Z",
-    "version": {
-      "major": 0,
-      "minor": 1,
-      "patch": 0
-    },
-    "tags": {},
-    "logoURI": "https://henjin.xyz/resources/images/logo.svg",
-    "keywords": ["henjin", "vault"],
-    "vaults": {
-      "167009": [
-        {
-          "type": "ICHI",
-          "name": "WBTC-USDC",
-          "chainId": 167009,
-          "vaultAddress": "0xcb7104ccf078ae1caf712d8a79068095d428c957",
-          "depositToken": "0x367F1F510036fD3feccBfa5eBD162e9dD244E5E8",
-          "poolAddress": "0xfa44d90f750733908fba051b23e244cc2a5d84f4"
-        },
-        {
-            "type": "ICHI",
-            "name": "USDC-WBTC",
-            "chainId": 167009,
-            "vaultAddress": "0x69002e5c648f736e49ba81b280cb0cc0db097577",
-            "depositToken": "0x5afCBf3f53eaa3A31C972A058A87e4182b746f44",
-            "poolAddress": "0xfa44d90f750733908fba051b23e244cc2a5d84f4"
-        },
-        {
-          "type": "ICHI",
-          "name": "WETH-USDC",
-          "chainId": 167009,
-          "vaultAddress": "0xFAd1b7bE7780C5Ee6C59AB805F298ad0Ef39aFf9",
-          "depositToken": "0x0000000000000000000000000000000000000000",
-          "poolAddress": "0x70699a7f1a450f84acbb29ef4d455a0774fe4bfd"
-        },
-        {
-          "type": "ICHI",
-          "name": "USDC-WETH",
-          "chainId": 167009,
-          "vaultAddress": "0x7223F4d59A927b04E92962B1cEed3e79A7e86D8e",
-          "depositToken": "0x5afCBf3f53eaa3A31C972A058A87e4182b746f44",
-          "poolAddress": "0x70699a7f1a450f84acbb29ef4d455a0774fe4bfd"
-        }
-      ],
-      "167000": [
-        {
-          "type": "ICHI",
-          "name": "ETH-USDC",
-          "chainId": 167000,
-          "vaultAddress": "0xF7b7E687DCb7C83e79647641b01F895DBe3Bf7d3",
-          "depositToken": "0x0000000000000000000000000000000000000000",
-          "poolAddress": "0x044e9d04e95da164e7c7a9e2ec734610c09aae13",
-          "isToken0": false
-        },
-        {
-          "type": "ICHI",
-          "name": "TAIKO-ETH",
-          "chainId": 167000,
-          "vaultAddress": "0x959F7fd2B3B062EE245A3CE4F88E737C3976D7C9",
-          "depositToken": "0xA9d23408b9bA935c230493c40C73824Df71A0975",
-          "poolAddress": "0x1011734849b6ea161f2c9ad1bb4aa765c8e09bd3",
-          "isToken0": false
-        },
-        {
-          "type": "ICHI",
-          "name": "TAIKO-USDC",
-          "chainId": 167000,
-          "vaultAddress": "0x61D4d9EFaCF0A783bd6c61fDcd77A2a17525ACe6",
-          "depositToken": "0xA9d23408b9bA935c230493c40C73824Df71A0975",
-          "poolAddress": "0x2741b57acf34dd783d3789012ba8389595275cac",
-          "isToken0": false
-        },
-        {
-          "type": "ICHI",
-          "name": "ETH-TAIKO",
-          "chainId": 167000,
-          "vaultAddress": "0x9Fe0fd905E418F644a749E6CC3eEbe16A318309A",
-          "depositToken": "0x0000000000000000000000000000000000000000",
-          "poolAddress": "0x1011734849b6ea161f2c9ad1bb4aa765c8e09bd3",
-          "isToken0": true
-        },
-        {
-          "type": "ICHI",
-          "name": "USDC-TAIKO",
-          "chainId": 167000,
-          "vaultAddress": "0x451576d0143a9BD4CD5cdf8095c72d8Be0A5c747",
-          "depositToken": "0x07d83526730c7438048D55A4fc0b850e2aaB6f0b",
-          "poolAddress": "0x2741b57acf34dd783d3789012ba8389595275cac",
-          "isToken0": true
-        }
-      ]
-    }
+  "name": "Henjin Vaults",
+  "timestamp": "2024-05-24T19:29:04.189Z",
+  "version": {
+    "major": 0,
+    "minor": 1,
+    "patch": 0
+  },
+  "tags": {},
+  "logoURI": "https://henjin.xyz/resources/images/logo.svg",
+  "keywords": ["henjin", "vault"],
+  "vaults": {
+    "167009": [{
+        "type": "ICHI",
+        "name": "WBTC-USDC",
+        "chainId": 167009,
+        "vaultAddress": "0xcb7104ccf078ae1caf712d8a79068095d428c957",
+        "depositToken": "0x367F1F510036fD3feccBfa5eBD162e9dD244E5E8",
+        "poolAddress": "0xfa44d90f750733908fba051b23e244cc2a5d84f4"
+      },
+      {
+        "type": "ICHI",
+        "name": "USDC-WBTC",
+        "chainId": 167009,
+        "vaultAddress": "0x69002e5c648f736e49ba81b280cb0cc0db097577",
+        "depositToken": "0x5afCBf3f53eaa3A31C972A058A87e4182b746f44",
+        "poolAddress": "0xfa44d90f750733908fba051b23e244cc2a5d84f4"
+      },
+      {
+        "type": "ICHI",
+        "name": "WETH-USDC",
+        "chainId": 167009,
+        "vaultAddress": "0xFAd1b7bE7780C5Ee6C59AB805F298ad0Ef39aFf9",
+        "depositToken": "0x0000000000000000000000000000000000000000",
+        "poolAddress": "0x70699a7f1a450f84acbb29ef4d455a0774fe4bfd"
+      },
+      {
+        "type": "ICHI",
+        "name": "USDC-WETH",
+        "chainId": 167009,
+        "vaultAddress": "0x7223F4d59A927b04E92962B1cEed3e79A7e86D8e",
+        "depositToken": "0x5afCBf3f53eaa3A31C972A058A87e4182b746f44",
+        "poolAddress": "0x70699a7f1a450f84acbb29ef4d455a0774fe4bfd"
+      }
+    ],
+    "167000": [{
+        "type": "ICHI",
+        "name": "ETH-USDC",
+        "chainId": 167000,
+        "vaultAddress": "0xF7b7E687DCb7C83e79647641b01F895DBe3Bf7d3",
+        "depositToken": "0x0000000000000000000000000000000000000000",
+        "poolAddress": "0x044e9d04e95da164e7c7a9e2ec734610c09aae13",
+        "isToken0": false
+      },
+      {
+        "type": "ICHI",
+        "name": "TAIKO-ETH",
+        "chainId": 167000,
+        "vaultAddress": "0x959F7fd2B3B062EE245A3CE4F88E737C3976D7C9",
+        "depositToken": "0xA9d23408b9bA935c230493c40C73824Df71A0975",
+        "poolAddress": "0x1011734849b6ea161f2c9ad1bb4aa765c8e09bd3",
+        "isToken0": false
+      },
+      {
+        "type": "ICHI",
+        "name": "TAIKO-USDC",
+        "chainId": 167000,
+        "vaultAddress": "0x61D4d9EFaCF0A783bd6c61fDcd77A2a17525ACe6",
+        "depositToken": "0xA9d23408b9bA935c230493c40C73824Df71A0975",
+        "poolAddress": "0x2741b57acf34dd783d3789012ba8389595275cac",
+        "isToken0": false
+      },
+      {
+        "type": "ICHI",
+        "name": "ETH-TAIKO",
+        "chainId": 167000,
+        "vaultAddress": "0x9Fe0fd905E418F644a749E6CC3eEbe16A318309A",
+        "depositToken": "0x0000000000000000000000000000000000000000",
+        "poolAddress": "0x1011734849b6ea161f2c9ad1bb4aa765c8e09bd3",
+        "isToken0": true
+      },
+      {
+        "type": "ICHI",
+        "name": "USDC-TAIKO",
+        "chainId": 167000,
+        "vaultAddress": "0x451576d0143a9BD4CD5cdf8095c72d8Be0A5c747",
+        "depositToken": "0x07d83526730c7438048D55A4fc0b850e2aaB6f0b",
+        "poolAddress": "0x2741b57acf34dd783d3789012ba8389595275cac",
+        "isToken0": true
+      }
+    ],
+    "8453": [{
+        "type": "ICHI",
+        "name": "HENAI-USDC",
+        "chainId": 8453,
+        "vaultAddress": "0x4FB173A236c915AD5dbF60fe2B1556c5d0b96DB4",
+        "depositToken": "0x42B08e7a9211482d3643a126a7dF1895448d3509",
+        "poolAddress": "0xe301ca0e15446d7f2eea46e8d158c5bda1f760f2",
+        "isToken0": true
+      },
+      {
+        "type": "ICHI",
+        "name": "USDC-HENAI",
+        "chainId": 8453,
+        "vaultAddress": "0x5730fC9d91Acd553b3662F299c918cE63FCaCd67",
+        "depositToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "poolAddress": "0xe301ca0e15446d7f2eea46e8d158c5bda1f760f2",
+        "isToken0": false
+      },
+      {
+        "type": "ICHI",
+        "name": "WETH-HENAI",
+        "chainId": 8453,
+        "vaultAddress": "0x0Fef73FC8110a4b2CB44485E5073b11229667aeC",
+        "depositToken": "0x4200000000000000000000000000000000000006",
+        "poolAddress": "0x461637b5fb2ce4f7eee23246247d383f0a533be6",
+        "isToken0": true
+      },
+      {
+        "type": "ICHI",
+        "name": "HENAI-WETH",
+        "chainId": 8453,
+        "vaultAddress": "0xa63Ed2A41a0f3704F4B418f710D01B0c0fC1C704",
+        "depositToken": "0x42B08e7a9211482d3643a126a7dF1895448d3509",
+        "poolAddress": "0x461637b5fb2ce4f7eee23246247d383f0a533be6",
+        "isToken0": false
+      },
+      {
+        "type": "ICHI",
+        "name": "WETH-USDC",
+        "chainId": 8453,
+        "vaultAddress": "0xF4d5433D0a5dd5Dc4E2419B9d7a126a1A0089251",
+        "depositToken": "0x4200000000000000000000000000000000000006",
+        "poolAddress": "0x3a619042a383edb747d6b5ea915583c7cd844720",
+        "isToken0": true
+      },
+      {
+        "type": "ICHI",
+        "name": "USDC-WETH",
+        "chainId": 8453,
+        "vaultAddress": "0x0761F81F17a6b87EA47fA56e1B81eAF675e8Ac43",
+        "depositToken": "0x42B08e7a9211482d3643a126a7dF1895448d3509",
+        "poolAddress": "0x3a619042a383edb747d6b5ea915583c7cd844720",
+        "isToken0": false
+      }
+    ]
+  }
 }

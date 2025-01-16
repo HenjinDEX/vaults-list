@@ -1,8 +1,7 @@
 {
     "name": "ICHI",
     "logo": "",
-    "vaults": [
-        {
+    "vaults": [{
             "type": "ICHI",
             "name": "ETH-USDC",
             "chainId": 167000,
@@ -45,6 +44,60 @@
             "depositToken": "0x07d83526730c7438048D55A4fc0b850e2aaB6f0b",
             "poolAddress": "0x2741b57acf34dd783d3789012ba8389595275cac",
             "isToken0": true
+        },
+        {
+            "type": "ICHI",
+            "name": "HENAI-USDC",
+            "chainId": 8453,
+            "vaultAddress": "0x4FB173A236c915AD5dbF60fe2B1556c5d0b96DB4",
+            "depositToken": "0x42B08e7a9211482d3643a126a7dF1895448d3509",
+            "poolAddress": "0xe301ca0e15446d7f2eea46e8d158c5bda1f760f2",
+            "isToken0": true
+        },
+        {
+            "type": "ICHI",
+            "name": "USDC-HENAI",
+            "chainId": 8453,
+            "vaultAddress": "0x5730fC9d91Acd553b3662F299c918cE63FCaCd67",
+            "depositToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+            "poolAddress": "0xe301ca0e15446d7f2eea46e8d158c5bda1f760f2",
+            "isToken0": false
+        },
+        {
+            "type": "ICHI",
+            "name": "WETH-HENAI",
+            "chainId": 8453,
+            "vaultAddress": "0x0Fef73FC8110a4b2CB44485E5073b11229667aeC",
+            "depositToken": "0x4200000000000000000000000000000000000006",
+            "poolAddress": "0x461637b5fb2ce4f7eee23246247d383f0a533be6",
+            "isToken0": true
+        },
+        {
+            "type": "ICHI",
+            "name": "HENAI-WETH",
+            "chainId": 8453,
+            "vaultAddress": "0xa63Ed2A41a0f3704F4B418f710D01B0c0fC1C704",
+            "depositToken": "0x42B08e7a9211482d3643a126a7dF1895448d3509",
+            "poolAddress": "0x461637b5fb2ce4f7eee23246247d383f0a533be6",
+            "isToken0": false
+        },
+        {
+            "type": "ICHI",
+            "name": "WETH-USDC",
+            "chainId": 8453,
+            "vaultAddress": "0xF4d5433D0a5dd5Dc4E2419B9d7a126a1A0089251",
+            "depositToken": "0x4200000000000000000000000000000000000006",
+            "poolAddress": "0x3a619042a383edb747d6b5ea915583c7cd844720",
+            "isToken0": true
+        },
+        {
+            "type": "ICHI",
+            "name": "USDC-WETH",
+            "chainId": 8453,
+            "vaultAddress": "0x0761F81F17a6b87EA47fA56e1B81eAF675e8Ac43",
+            "depositToken": "0x42B08e7a9211482d3643a126a7dF1895448d3509",
+            "poolAddress": "0x3a619042a383edb747d6b5ea915583c7cd844720",
+            "isToken0": false
         }
     ]
 }
