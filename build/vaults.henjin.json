@@ -112,7 +112,7 @@
         "name": "WETH-HENAI",
         "chainId": 8453,
         "vaultAddress": "0x0Fef73FC8110a4b2CB44485E5073b11229667aeC",
-        "depositToken": "0x4200000000000000000000000000000000000006",
+        "depositToken": "0x0000000000000000000000000000000000000000",
         "poolAddress": "0x461637b5fb2ce4f7eee23246247d383f0a533be6",
         "isToken0": true
       },
@@ -130,7 +130,7 @@
         "name": "WETH-USDC",
         "chainId": 8453,
         "vaultAddress": "0xF4d5433D0a5dd5Dc4E2419B9d7a126a1A0089251",
-        "depositToken": "0x4200000000000000000000000000000000000006",
+        "depositToken": "0x0000000000000000000000000000000000000000",
         "poolAddress": "0x3a619042a383edb747d6b5ea915583c7cd844720",
         "isToken0": true
       },
