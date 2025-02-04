@@ -139,7 +139,7 @@
         "name": "USDC-WETH",
         "chainId": 8453,
         "vaultAddress": "0x0761F81F17a6b87EA47fA56e1B81eAF675e8Ac43",
-        "depositToken": "0x42B08e7a9211482d3643a126a7dF1895448d3509",
+        "depositToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
         "poolAddress": "0x3a619042a383edb747d6b5ea915583c7cd844720",
         "isToken0": false
       }
